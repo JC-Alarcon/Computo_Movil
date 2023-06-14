@@ -1,2 +1,2 @@
 # Computo_Movil
-Repositorio para trabajos y tareas de la matería
+Repositorio para trabajos y tareas de la materia
