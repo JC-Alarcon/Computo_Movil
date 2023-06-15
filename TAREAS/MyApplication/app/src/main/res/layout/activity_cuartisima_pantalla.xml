@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuartisimaPantalla"
+    android:background="#9E4F4F">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.3"
+                android:src="@drawable/bg_dish"
+                app:tint="#77000000" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+
+                android:src="@drawable/bg_dish" />
+
+            <ImageView
+                android:id="@+id/imgDish"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginEnd="85dp"
+                android:layout_marginBottom="0dp"
+                android:padding="10dp"
+                android:src="@drawable/monitor" />
+
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="605dp"
+                android:layout_marginEnd="121dp"
+                android:onClick="irBack"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            tools:ignore="ExtraText">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.1"
+                android:src="@drawable/bg_right"
+                app:tint="#77000000" />
+            />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/bg_right" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp"
+                android:src="@drawable/derecha"
+                app:tint="#F75F" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txvNameDish"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="160dp"
+                android:fontFamily="@font/font_dish"
+                android:gravity="bottom"
+                android:paddingBottom="5dp"
+                android:text="Monitor"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/txvNumItem"
+                android:layout_width="330dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="360dp"
+                android:text="Es una pantalla que permite al usuario ver y interactuar con el contenido, como texto, imágenes, videos y gráficos, que se procesan y producen en la computadora. El monitor actúa como una ventana a través de la cual se presenta la información digitalizada de manera visual, lo que permite al usuario realizar tareas y disfrutar de una experiencia visual en la computadora."
+                android:textColor="#170505"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
